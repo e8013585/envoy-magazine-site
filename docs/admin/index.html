@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Everything in the admin resolves relative to the site root (docs/). -->
+  <base href="../">
+  <title>Envoy Admin</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/bold/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="admin/admin.css">
+  <script>
+    try { var t = localStorage.getItem('envoy.theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+</head>
+<body class="admin">
+  <div id="app"><div class="loading">Loading admin</div></div>
+  <dialog id="dialog" class="dialog"></dialog>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
+  <script type="module" src="admin/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Envoy Magazine</title>
+  <meta name="description" content="Envoy is a magazine on the United Nations, diplomacy and global affairs.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Envoy Magazine">
+  <meta property="og:image" content="assets/img/logo.png">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/bold/style.css">
+  <link rel="stylesheet" href="css/site.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    try { var t = localStorage.getItem('envoy.theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="ambient" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"><span id="progress"></span></div>
+
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar__date" id="clock"><span class="date"></span><span class="time"></span></div>
+      <div class="ticker" id="ticker" hidden>
+        <span class="ticker__label">Latest</span>
+        <div class="ticker__viewport"><div class="ticker__track"></div></div>
+      </div>
+      <div class="topbar__social" id="social-top"></div>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="container">
+      <div class="masthead__left"><span class="masthead__issue" id="issue-label"></span></div>
+      <div class="brand" id="brand"></div>
+      <div class="masthead__right" id="masthead-right"></div>
+    </div>
+  </header>
+
+  <nav class="nav" aria-label="Main">
+    <div class="container">
+      <button class="icon-btn nav__toggle" id="menu-open" aria-label="Open menu" aria-controls="drawer" aria-expanded="false"><i class="ph-bold ph-list"></i></button>
+      <a class="nav__brand" href="#/" id="nav-brand" aria-label="Home"></a>
+      <ul class="nav__menu" id="menu"></ul>
+      <div class="nav__tools">
+        <button class="icon-btn" id="search-toggle" aria-label="Search" aria-expanded="false" aria-controls="search-panel"><i class="ph-bold ph-magnifying-glass"></i></button>
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode"><i class="ph-bold ph-moon"></i></button>
+      </div>
+    </div>
+  </nav>
+  <div class="search-panel" id="search-panel">
+    <div class="container">
+      <form id="search-form" role="search">
+        <label for="search-input" class="sr-only">Search articles</label>
+        <input id="search-input" type="search" placeholder="Search Envoy" autocomplete="off">
+        <button class="btn" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer__scrim" data-close></div>
+    <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Menu">
+      <div class="drawer__head">
+        <span id="drawer-brand"></span>
+        <button class="icon-btn" data-close aria-label="Close menu"><i class="ph-bold ph-x"></i></button>
+      </div>
+      <ul id="drawer-menu"></ul>
+      <div id="drawer-extra"></div>
+    </div>
+  </div>
+
+  <main id="main" tabindex="-1">
+    <div class="loading">Loading</div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand" id="footer-brand"></div>
+        <ul class="footer__menu" id="footer-menu"></ul>
+      </div>
+      <div class="footer__bottom">
+        <span id="footer-text"></span>
+        <div id="social-bottom" style="display:flex;gap:4px"></div>
+      </div>
+    </div>
+  </footer>
+  <button class="to-top" id="to-top" aria-label="Back to top"><i class="ph-bold ph-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.4/dist/purify.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

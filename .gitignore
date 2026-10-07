@@ -1,0 +1,8 @@
+node_modules/
+ADMIN-CREDENTIALS.txt
+# Source material used by tools/seed.py; not part of the published site.
+envoymag-com-webpage-saves/
+
+# Working notes, not part of the site.
+Task.txt
+design-guidance-SKILL.md

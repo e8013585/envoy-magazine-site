@@ -1,0 +1,13 @@
+{
+  "name": "envoy-magazine-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static, admin-editable recreation of the Envoy magazine website, hostable on GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "set-password": "node tools/set-password.mjs",
+    "seed": "python tools/seed.py"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,2092 @@
+{
+ "version": 1,
+ "updatedAt": "2026-10-07T20:50:44+00:00",
+ "site": {
+  "title": "envoy",
+  "tagline": "… everything becomes clearer as we learn",
+  "description": "Envoy is a magazine on the United Nations, diplomacy and global affairs.",
+  "logo": "assets/img/logo.png",
+  "showLogo": true,
+  "subscribeLabel": "Subscribe",
+  "subscribeUrl": "#/subscribe",
+  "magazine": {
+   "title": "Magazine",
+   "image": "assets/img/magazine.jpg",
+   "url": "https://preview.emagazines.com/envoy/20250301/index.html"
+  },
+  "social": [
+   {
+    "network": "linkedin",
+    "url": "https://www.linkedin.com/company/envoymag/"
+   },
+   {
+    "network": "x",
+    "url": "https://x.com/envoyUNEMAG"
+   }
+  ],
+  "footerText": "Envoy 2026.",
+  "footerNote": "Published by UNEMAG, a non-profit 501(c)(3) organization.",
+  "showClock": true,
+  "defaultTheme": "light"
+ },
+ "nav": [
+  {
+   "label": "Home",
+   "type": "home",
+   "target": ""
+  },
+  {
+   "label": "Culture",
+   "type": "category",
+   "target": "culture"
+  },
+  {
+   "label": "Featured",
+   "type": "category",
+   "target": "featured"
+  },
+  {
+   "label": "World Affairs",
+   "type": "category",
+   "target": "world-affairs"
+  },
+  {
+   "label": "Purpose",
+   "type": "page",
+   "target": "purpose"
+  },
+  {
+   "label": "Authors",
+   "type": "authors",
+   "target": ""
+  },
+  {
+   "label": "Magazine",
+   "type": "url",
+   "target": "https://library.emagazines.com/Account/ExpressLogin?plid=439",
+   "newTab": true
+  },
+  {
+   "label": "Contacts",
+   "type": "page",
+   "target": "contacts"
+  },
+  {
+   "label": "Envoy TV",
+   "type": "page",
+   "target": "envoy-tv"
+  },
+  {
+   "label": "Donate",
+   "type": "url",
+   "target": "https://www.zeffy.com/en-US/donation-form/donate-become-our-special-envoy",
+   "newTab": true
+  }
+ ],
+ "footerNav": null,
+ "home": {
+  "slider": [
+   "p020",
+   "p001",
+   "p002"
+  ],
+  "trailing": [
+   "p001",
+   "p002"
+  ],
+  "ticker": {
+   "mode": "manual",
+   "count": 6,
+   "ids": [
+    "p004",
+    "p001",
+    "p002",
+    "p003"
+   ]
+  },
+  "highlights": [
+   "p004",
+   "p001",
+   "p002",
+   "p003"
+  ],
+  "popular": [
+   "p005",
+   "p006",
+   "p007",
+   "p008",
+   "p001",
+   "p002",
+   "p003",
+   "p004"
+  ],
+  "missed": [
+   "p038",
+   "p044",
+   "p045",
+   "p041",
+   "p036",
+   "p037",
+   "p030",
+   "p033"
+  ],
+  "categoryList": {
+   "title": "World Affairs",
+   "category": "world-affairs",
+   "count": 6
+  },
+  "categoryGrid": {
+   "title": "Culture",
+   "category": "culture",
+   "count": 3
+  },
+  "perPage": 10,
+  "widgets": [
+   "magazine",
+   "highlights",
+   "popular",
+   "categoryList",
+   "categoryGrid"
+  ]
+ },
+ "categories": [
+  {
+   "id": "a-i",
+   "slug": "a-i",
+   "name": "A.I.",
+   "description": ""
+  },
+  {
+   "id": "amazon-rainforest",
+   "slug": "amazon-rainforest",
+   "name": "Amazon Rainforest",
+   "description": ""
+  },
+  {
+   "id": "analysis",
+   "slug": "analysis",
+   "name": "ANALYSIS",
+   "description": ""
+  },
+  {
+   "id": "culture",
+   "slug": "culture",
+   "name": "Culture",
+   "description": ""
+  },
+  {
+   "id": "environment",
+   "slug": "environment",
+   "name": "Environment",
+   "description": ""
+  },
+  {
+   "id": "essay",
+   "slug": "essay",
+   "name": "ESSAY",
+   "description": ""
+  },
+  {
+   "id": "featured",
+   "slug": "featured",
+   "name": "Featured",
+   "description": ""
+  },
+  {
+   "id": "geopolitics",
+   "slug": "geopolitics",
+   "name": "Geopolitics",
+   "description": ""
+  },
+  {
+   "id": "innovation",
+   "slug": "innovation",
+   "name": "Innovation",
+   "description": ""
+  },
+  {
+   "id": "magazine",
+   "slug": "magazine",
+   "name": "Magazine",
+   "description": ""
+  },
+  {
+   "id": "opinion",
+   "slug": "opinion",
+   "name": "Opinion",
+   "description": ""
+  },
+  {
+   "id": "photo-essay",
+   "slug": "photo-essay",
+   "name": "PHOTO ESSAY",
+   "description": ""
+  },
+  {
+   "id": "secretary-general-race",
+   "slug": "secretary-general-race",
+   "name": "Secretary-General Race",
+   "description": ""
+  },
+  {
+   "id": "sports",
+   "slug": "sports",
+   "name": "Sports",
+   "description": ""
+  },
+  {
+   "id": "uncategorized",
+   "slug": "uncategorized",
+   "name": "Uncategorized",
+   "description": ""
+  },
+  {
+   "id": "unescos-world-heritage-list",
+   "slug": "unescos-world-heritage-list",
+   "name": "UNESCO’s world heritage list",
+   "description": ""
+  },
+  {
+   "id": "unga-81",
+   "slug": "unga-81",
+   "name": "UNGA 81",
+   "description": ""
+  },
+  {
+   "id": "unga81",
+   "slug": "unga81",
+   "name": "#UNGA81",
+   "description": ""
+  },
+  {
+   "id": "united-nations",
+   "slug": "united-nations",
+   "name": "United Nations",
+   "description": ""
+  },
+  {
+   "id": "world-affairs",
+   "slug": "world-affairs",
+   "name": "World Affairs",
+   "description": ""
+  },
+  {
+   "id": "youth",
+   "slug": "youth",
+   "name": "Youth",
+   "description": ""
+  }
+ ],
+ "authors": [
+  {
+   "id": "admin",
+   "slug": "admin",
+   "name": "Envoy",
+   "avatar": "assets/img/authors/admin.jpg",
+   "role": "Editorial desk",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "razi",
+   "slug": "razi",
+   "name": "Razi Canikligil",
+   "avatar": "assets/img/authors/razi.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "stephanie",
+   "slug": "stephanie",
+   "name": "Stéphanie Fillion",
+   "avatar": "assets/img/authors/stephanie.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "joel-millman",
+   "slug": "joel-millman",
+   "name": "Joel Millman",
+   "avatar": "assets/img/authors/joel-millman.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "betul",
+   "slug": "betul",
+   "name": "Betul Yuruk",
+   "avatar": "assets/img/authors/betul.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "dawn-clancy",
+   "slug": "dawn-clancy",
+   "name": "Dawn Clancy",
+   "avatar": "assets/img/authors/dawn-clancy.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "georgia",
+   "slug": "georgia",
+   "name": "Georgia Garantzioti",
+   "avatar": "assets/img/authors/georgia.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "bianca-otero",
+   "slug": "bianca-otero",
+   "name": "Bianca Otero",
+   "avatar": "assets/img/authors/bianca-otero.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "mercedes-gallego",
+   "slug": "mercedes-gallego",
+   "name": "Mercedes Gallego",
+   "avatar": "assets/img/authors/mercedes-gallego.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "zeynep",
+   "slug": "zeynep",
+   "name": "Zeynep Bayar",
+   "avatar": "assets/img/authors/zeynep.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "olga",
+   "slug": "olga",
+   "name": "Olga Hughes",
+   "avatar": "assets/img/authors/olga.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "yaman-toruner",
+   "slug": "yaman-toruner",
+   "name": "Yaman Toruner",
+   "avatar": "assets/img/authors/yaman-toruner.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "elif",
+   "slug": "elif",
+   "name": "Elif Iyibudar",
+   "avatar": "assets/img/authors/elif.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "pamela",
+   "slug": "pamela",
+   "name": "Pamela Falk",
+   "avatar": "assets/img/authors/pamela.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "demirkan",
+   "slug": "demirkan",
+   "name": "Demirkan Demir",
+   "avatar": "assets/img/authors/demirkan.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "mercedes",
+   "slug": "mercedes",
+   "name": "Mercedes Gallago",
+   "avatar": "assets/img/authors/mercedes.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "jamil-chade",
+   "slug": "jamil-chade",
+   "name": "Jamil Chade",
+   "avatar": "assets/img/authors/jamil-chade.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "yesim",
+   "slug": "yesim",
+   "name": "Yesim Saydan",
+   "avatar": "assets/img/authors/yesim.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "senada-sokollu",
+   "slug": "senada-sokollu",
+   "name": "Senada Sokollu",
+   "avatar": "assets/img/authors/senada-sokollu.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "amaj-rahimi-midani",
+   "slug": "amaj-rahimi-midani",
+   "name": "Amaj Rahimi Midani",
+   "avatar": "assets/img/authors/amaj-rahimi-midani.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "carrie",
+   "slug": "carrie",
+   "name": "Carrie Nooten",
+   "avatar": "assets/img/authors/carrie.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "laura-kirkpatrick",
+   "slug": "laura-kirkpatrick",
+   "name": "Laura Kirkpatrick",
+   "avatar": "assets/img/authors/laura-kirkpatrick.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "stefano-vaccara",
+   "slug": "stefano-vaccara",
+   "name": "Stefano Vaccara",
+   "avatar": "assets/img/authors/stefano-vaccara.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "vusala",
+   "slug": "vusala",
+   "name": "Vusala Abbasova",
+   "avatar": "assets/img/authors/vusala.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "emre-kuraner",
+   "slug": "emre-kuraner",
+   "name": "Emre Kuraner",
+   "avatar": "assets/img/authors/emre-kuraner.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "nimet",
+   "slug": "nimet",
+   "name": "Nimet Kirac",
+   "avatar": "assets/img/authors/nimet.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "lauren-shocker",
+   "slug": "lauren-shocker",
+   "name": "Lauren Shocker",
+   "avatar": "assets/img/authors/lauren-shocker.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "ergin",
+   "slug": "ergin",
+   "name": "Ergin Kocyildirim M.D.",
+   "avatar": "assets/img/authors/ergin.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "richard",
+   "slug": "richard",
+   "name": "Richard Gowan - Crisis Group UN Director",
+   "avatar": "assets/img/authors/richard.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "fadime",
+   "slug": "fadime",
+   "name": "Fadime Pala",
+   "avatar": "assets/img/authors/fadime.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "jordan_dakamseh",
+   "slug": "jordan_dakamseh",
+   "name": "Jordan Dakamseh",
+   "avatar": "assets/img/authors/jordan_dakamseh.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "rowland-robinson",
+   "slug": "rowland-robinson",
+   "name": "Rowland Robinson",
+   "avatar": "assets/img/authors/rowland-robinson.jpg",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "victoire-mandonnaud",
+   "slug": "victoire-mandonnaud",
+   "name": "Victoire Mandonnaud",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "hajar-el-haddaoui",
+   "slug": "hajar-el-haddaoui",
+   "name": "Hajar El Haddaoui",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "patrick-rosenow",
+   "slug": "patrick-rosenow",
+   "name": "Patrick Rosenow",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "sabine-zednik-hammonds",
+   "slug": "sabine-zednik-hammonds",
+   "name": "Sabine Zednik-Hammonds",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "dr-allan-e-goodman",
+   "slug": "dr-allan-e-goodman",
+   "name": "Dr. Allan E. Goodman - CEO of the Institute of International Education",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "brett-simpson",
+   "slug": "brett-simpson",
+   "name": "Brett Simpson",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "kanni",
+   "slug": "kanni",
+   "name": "Kanni Wignaraja",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "saul-kenny",
+   "slug": "saul-kenny",
+   "name": "Saul Kenny",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "elena-mindlina",
+   "slug": "elena-mindlina",
+   "name": "Elena Mindlina",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "michael-jakob",
+   "slug": "michael-jakob",
+   "name": "Michael Jakob",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "paul_salem",
+   "slug": "paul_salem",
+   "name": "Paul Salem",
+   "avatar": "",
+   "role": "",
+   "bio": "Middle East Institute Vice President\nfor International Engagement",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "by-staff-writer",
+   "slug": "by-staff-writer",
+   "name": "By Staff Writer",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "katherine-roth-kono",
+   "slug": "katherine-roth-kono",
+   "name": "Katherine Roth Kono",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "selin",
+   "slug": "selin",
+   "name": "Selin Yurtsever",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "nancy-economou",
+   "slug": "nancy-economou",
+   "name": "Nancy Economou",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "alexandra-helou",
+   "slug": "alexandra-helou",
+   "name": "Alexandra Helou",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "jeames-castillo",
+   "slug": "jeames-castillo",
+   "name": "Jeames Castillo",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "peter-kay",
+   "slug": "peter-kay",
+   "name": "Peter Kay",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "camilo-lopez-delgado",
+   "slug": "camilo-lopez-delgado",
+   "name": "Camilo Lopez Delgado",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "kelsea-frobes",
+   "slug": "kelsea-frobes",
+   "name": "Kelsea Frobes",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "elizabeth-cousens",
+   "slug": "elizabeth-cousens",
+   "name": "Elizabeth Cousens",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "nicola-reindorp",
+   "slug": "nicola-reindorp",
+   "name": "Nicola Reindorp",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "youssof-ghafoorzai",
+   "slug": "youssof-ghafoorzai",
+   "name": "Youssof Ghafoorzai",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "jean-krasno",
+   "slug": "jean-krasno",
+   "name": "Jean Krasno",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "radmilla-suleymanova",
+   "slug": "radmilla-suleymanova",
+   "name": "Radmilla Suleymanova",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "stacey-steinberg",
+   "slug": "stacey-steinberg",
+   "name": "Stacey Steinberg",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "antonia-diaz-hernandez",
+   "slug": "antonia-diaz-hernandez",
+   "name": "Antonia Diaz Hernandez",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "jerome-crettol",
+   "slug": "jerome-crettol",
+   "name": "Jerome Crettol",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "charlene-molan-jin",
+   "slug": "charlene-molan-jin",
+   "name": "Charlene Molan Jin",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "jessica-dapelo",
+   "slug": "jessica-dapelo",
+   "name": "Jessica Dapelo",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "christiane-berthiaume",
+   "slug": "christiane-berthiaume",
+   "name": "Christiane Berthiaume",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "lisa-marie-vickers",
+   "slug": "lisa-marie-vickers",
+   "name": "Lisa Marie Vickers",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "omer-aras",
+   "slug": "omer-aras",
+   "name": "Omer Aras",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "antonio-reyes-gonzalez",
+   "slug": "antonio-reyes-gonzalez",
+   "name": "Antonio Reyes Gonzalez",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "claire_envoy",
+   "slug": "claire_envoy",
+   "name": "Claire Pelofi",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "louis_charbonneau",
+   "slug": "louis_charbonneau",
+   "name": "Louis Charbonneau",
+   "avatar": "",
+   "role": "",
+   "bio": "United Nations Director at Human Rights Watch",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "toby-burns",
+   "slug": "toby-burns",
+   "name": "Toby Burns",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "favour-amoye",
+   "slug": "favour-amoye",
+   "name": "Favour Amoye",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "omer-er",
+   "slug": "omer-er",
+   "name": "Omer Er",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "robert-a-wood",
+   "slug": "robert-a-wood",
+   "name": "Robert A. Wood",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "daniel-flitton",
+   "slug": "daniel-flitton",
+   "name": "Daniel Flitton",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "valdez-onanina",
+   "slug": "valdez-onanina",
+   "name": "Valdez Onanina",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "paco_underhill",
+   "slug": "paco_underhill",
+   "name": "Paco Underhill",
+   "avatar": "",
+   "role": "",
+   "bio": "New York Times Best Selling Author",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "john",
+   "slug": "john",
+   "name": "John Oko Nyaku",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "rose-worden",
+   "slug": "rose-worden",
+   "name": "Rose Worden",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "meliskaraca",
+   "slug": "meliskaraca",
+   "name": "Melis Karaca",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  },
+  {
+   "id": "vesko-garcevic",
+   "slug": "vesko-garcevic",
+   "name": "Vesko Garčević",
+   "avatar": "",
+   "role": "",
+   "bio": "",
+   "twitter": "",
+   "linkedin": "",
+   "website": ""
+  }
+ ],
+ "posts": [
+  {
+   "id": "p001",
+   "slug": "ivonne-baki-says-she-is-staying-in-the-secretary-general-race-i-dont-believe-in-quitting",
+   "title": "Ivonne Baki Says She Is Staying in the Secretary-General Race: “I Don’t Believe in Quitting”",
+   "excerpt": "After finishing last in three Security Council straw polls, the Ecuadorian-Lebanese diplomat tells Envoy she has no intention of dropping out.",
+   "body": "",
+   "image": "assets/img/posts/ivonne-baki-says-she-is-staying-in-the-secretary-general-race-i-dont-believe-in-quitting.jpg",
+   "imageCaption": "",
+   "categories": [
+    "secretary-general-race"
+   ],
+   "author": "stephanie",
+   "date": "2026-10-06T23:55:48+00:00",
+   "updated": "2026-10-07T01:09:30+00:00",
+   "readTime": 5,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/secretary-general-race/ivonne-baki-says-she-is-staying-in-the-secretary-general-race-i-dont-believe-in-quitting/"
+  },
+  {
+   "id": "p002",
+   "slug": "small-states-are-learning-to-play-big",
+   "title": "Small States Are Learning to Play Big",
+   "excerpt": "From climate negotiations to diplomatic mediation and the UN Security Council, smaller countries are turning coalitions, geography and multilateral institutions into power—just as great-power rivalry…",
+   "body": "",
+   "image": "assets/img/posts/small-states-are-learning-to-play-big.jpg",
+   "imageCaption": "",
+   "categories": [
+    "opinion"
+   ],
+   "author": "stephanie",
+   "date": "2026-10-06T23:55:48+00:00",
+   "updated": "2026-10-07T01:09:30+00:00",
+   "readTime": 7,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/opinion/small-states-are-learning-to-play-big/"
+  },
+  {
+   "id": "p003",
+   "slug": "exclusive-carolyn-rodrigues-birkett-responds-to-critics-judge-diplomats-on-their-countries-words-and-there-will-be-no-diplomats-left",
+   "title": "EXCLUSIVE: Carolyn Rodrigues Birkett Responds to Critics: Judge Diplomats on Their Countries’ Words and “There Will Be No Diplomats Left”",
+   "excerpt": "The No. 2 candidate in the race to lead the United Nations told Envoy that recent reports about her Middle East record were intended to boost a rival—and sought to clarify her position on genocide.",
+   "body": "",
+   "image": "assets/img/posts/exclusive-carolyn-rodrigues-birkett-responds-to-critics-judge-diplomats-on-their-countries-words-and-there-will-be-no-diplomats-left.jpg",
+   "imageCaption": "",
+   "categories": [
+    "secretary-general-race"
+   ],
+   "author": "admin",
+   "date": "2026-10-05T13:55:44+00:00",
+   "updated": "2026-10-05T16:59:46+00:00",
+   "readTime": 8,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/secretary-general-race/exclusive-carolyn-rodrigues-birkett-responds-to-critics-judge-diplomats-on-their-countries-words-and-there-will-be-no-diplomats-left/"
+  },
+  {
+   "id": "p004",
+   "slug": "for-microstates-the-key-to-unga-success-is-choosing-wisely",
+   "title": "For Microstates, the Key to UNGA Success Is Choosing Wisely",
+   "excerpt": "Small states may have tiny diplomatic teams, but at the UN, careful priorities, close coordination and experienced ambassadors can give them influence far beyond their size.",
+   "body": "",
+   "image": "assets/img/posts/for-microstates-the-key-to-unga-success-is-choosing-wisely.jpg",
+   "imageCaption": "",
+   "categories": [
+    "geopolitics",
+    "unga-81"
+   ],
+   "author": "admin",
+   "date": "2026-10-02T15:36:47+00:00",
+   "updated": "2026-10-02T15:36:47+00:00",
+   "readTime": 8,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/unga-81/for-microstates-the-key-to-unga-success-is-choosing-wisely/"
+  },
+  {
+   "id": "p005",
+   "slug": "what-it-costs-gen-z-to-have-a-voice-at-unga",
+   "title": "What It Costs Gen Z to Have a Voice at UNGA",
+   "excerpt": "Young attendees tell Envoy what the actual costs—in money, access, and credibility—of being included in the world’s highest-level rooms are.",
+   "body": "",
+   "image": "assets/img/posts/what-it-costs-gen-z-to-have-a-voice-at-unga.jpg",
+   "imageCaption": "",
+   "categories": [
+    "unga81",
+    "youth"
+   ],
+   "author": "sabine-zednik-hammonds",
+   "date": "2026-09-30T14:00:23+00:00",
+   "updated": "2026-09-30T14:19:08+00:00",
+   "readTime": 4,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/unga81/what-it-costs-gen-z-to-have-a-voice-at-unga/"
+  },
+  {
+   "id": "p006",
+   "slug": "day-6-unga-ends-with-nukes-braille-and-diplomatic-fire",
+   "title": "Day 6: UNGA Ends With Nukes, Braille and Diplomatic Fire",
+   "excerpt": "North Korea rejects denuclearization, Antigua and Barbuda makes a disability-rights appeal, and Sudan and the UAE trade accusations.",
+   "body": "",
+   "image": "assets/img/posts/day-6-unga-ends-with-nukes-braille-and-diplomatic-fire.jpg",
+   "imageCaption": "",
+   "categories": [
+    "unga81"
+   ],
+   "author": "admin",
+   "date": "2026-09-28T23:46:48+00:00",
+   "updated": "2026-09-28T23:53:56+00:00",
+   "readTime": 6,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/unga81/day-6-unga-ends-with-nukes-braille-and-diplomatic-fire/"
+  },
+  {
+   "id": "p007",
+   "slug": "our-caribbean-sense-of-life-why-it-is-the-elixir-in-the-temperament-of-the-next-un-chief",
+   "title": "Our Caribbean Sense of Life: Why It Is the Elixir in the Temperament of the Next UN Chief",
+   "excerpt": "Ahead of a fourth Security Council straw poll, a former Caribbean ambassador argues that the next secretary-general should come not simply from Latin America and the Caribbean, but from the Caribbean…",
+   "body": "",
+   "image": "assets/img/posts/our-caribbean-sense-of-life-why-it-is-the-elixir-in-the-temperament-of-the-next-un-chief.jpg",
+   "imageCaption": "",
+   "categories": [
+    "opinion",
+    "secretary-general-race"
+   ],
+   "author": "admin",
+   "date": "2026-09-27T22:37:34+00:00",
+   "updated": "2026-09-28T11:59:45+00:00",
+   "readTime": 6,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/opinion/our-caribbean-sense-of-life-why-it-is-the-elixir-in-the-temperament-of-the-next-un-chief/"
+  },
+  {
+   "id": "p008",
+   "slug": "day-5-happy-international-lavrov-day",
+   "title": "Day 5: Happy International Lavrov Day!",
+   "excerpt": "Russia declares a new world order, China warns against protectionism, and the Holy See takes aim at autonomous weapons.",
+   "body": "",
+   "image": "assets/img/posts/day-5-happy-international-lavrov-day.jpg",
+   "imageCaption": "",
+   "categories": [
+    "unga81"
+   ],
+   "author": "admin",
+   "date": "2026-09-27T12:27:33+00:00",
+   "updated": "2026-09-27T12:27:33+00:00",
+   "readTime": 6,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/unga81/day-5-happy-international-lavrov-day/"
+  },
+  {
+   "id": "p009",
+   "slug": "day-4-iran-gives-trump-an-ultimatum",
+   "title": "Day 4: Iran Gives Trump an Ultimatum",
+   "excerpt": "It’s day four of the UN General Assembly, and by now, most delegates still in town are running on little sleep and a lot of coffee.",
+   "body": "",
+   "image": "assets/img/posts/day-4-iran-gives-trump-an-ultimatum.jpg",
+   "imageCaption": "",
+   "categories": [
+    "unga81"
+   ],
+   "author": "admin",
+   "date": "2026-09-26T12:37:38+00:00",
+   "updated": "2026-09-26T12:37:38+00:00",
+   "readTime": 8,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/unga81/day-4-iran-gives-trump-an-ultimatum/"
+  },
+  {
+   "id": "p010",
+   "slug": "beyond-the-podium-capturing-high-level-week",
+   "title": "Beyond the Podium: capturing high-level week",
+   "excerpt": "The Quiet Work of Diplomacy   Looking back through UNGA photographs, I found myself reflecting less on individual events than on the movement of the process itself.",
+   "body": "",
+   "image": "assets/img/posts/beyond-the-podium-capturing-high-level-week.jpg",
+   "imageCaption": "",
+   "categories": [
+    "photo-essay"
+   ],
+   "author": "bianca-otero",
+   "date": "2026-09-25T12:33:56+00:00",
+   "updated": "2026-09-25T12:33:56+00:00",
+   "readTime": 12,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/photo-essay/beyond-the-podium-capturing-high-level-week/"
+  },
+  {
+   "id": "p011",
+   "slug": "day-3-netanyahu-takes-the-stage-abbas-takes-the-screen",
+   "title": "Day 3: Netanyahu Takes the Stage. Abbas Takes the Screen.",
+   "excerpt": "Day three brought a mass walkout, a remote Palestinian address and plenty of old arguments, while the race for the next secretary-general remained eerily quiet.",
+   "body": "",
+   "image": "assets/img/posts/day-3-netanyahu-takes-the-stage-abbas-takes-the-screen.jpg",
+   "imageCaption": "",
+   "categories": [
+    "uncategorized"
+   ],
+   "author": "admin",
+   "date": "2026-09-25T02:38:28+00:00",
+   "updated": "2026-09-25T02:38:28+00:00",
+   "readTime": 10,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/uncategorized/day-3-netanyahu-takes-the-stage-abbas-takes-the-screen/"
+  },
+  {
+   "id": "p012",
+   "slug": "the-year-one-playbook-for-the-next-un-secretary-general",
+   "title": "The Year One Playbook for the Next UN Secretary-General",
+   "excerpt": "The next UN chief’s first year will be a test of whether the institution can still deliver in an age of conflict, financial strain and geopolitical paralysis.",
+   "body": "",
+   "image": "assets/img/posts/the-year-one-playbook-for-the-next-un-secretary-general.jpg",
+   "imageCaption": "",
+   "categories": [
+    "opinion"
+   ],
+   "author": "elizabeth-cousens",
+   "date": "2026-09-25T02:25:03+00:00",
+   "updated": "2026-09-25T02:25:03+00:00",
+   "readTime": 7,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/opinion/the-year-one-playbook-for-the-next-un-secretary-general/"
+  },
+  {
+   "id": "p013",
+   "slug": "australia-is-not-ready-to-declare-the-old-world-order-dead",
+   "title": "Australia Is Not Ready to Declare the Old World Order Dead",
+   "excerpt": "As world leaders prepare to gather at the UN General Assembly, Anthony Albanese is positioning Australia between American security guarantees and Chinese economic power—and choosing reform over…",
+   "body": "",
+   "image": "assets/img/posts/australia-is-not-ready-to-declare-the-old-world-order-dead.jpg",
+   "imageCaption": "",
+   "categories": [
+    "analysis"
+   ],
+   "author": "daniel-flitton",
+   "date": "2026-09-24T16:27:28+00:00",
+   "updated": "2026-09-24T16:27:28+00:00",
+   "readTime": 7,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/analysis/australia-is-not-ready-to-declare-the-old-world-order-dead/"
+  },
+  {
+   "id": "p014",
+   "slug": "sam-altman-cant-run-from-the-ai-question",
+   "title": "Sam Altman Can’t Run From the AI Question",
+   "excerpt": "Dario Amodei, Anthropic CEO, urged the UN body to start small with an agreement every member could sign: a ban on using AI to make biological weapons.",
+   "body": "",
+   "image": "assets/img/posts/sam-altman-cant-run-from-the-ai-question.jpg",
+   "imageCaption": "",
+   "categories": [
+    "unga81",
+    "a-i"
+   ],
+   "author": "mercedes-gallego",
+   "date": "2026-09-24T14:26:26+00:00",
+   "updated": "2026-09-30T14:30:19+00:00",
+   "readTime": 6,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/a-i/sam-altman-cant-run-from-the-ai-question/"
+  },
+  {
+   "id": "p015",
+   "slug": "sam-altman-faces-the-security-council",
+   "title": "Sam Altman Faces the Security Council",
+   "excerpt": "On day 2 of UNGA, the biggest draw wasn’t a head of state While eyes were turned toward Washington for the US-China meeting, several influential leaders were speaking at the UN General Assembly…",
+   "body": "",
+   "image": "assets/img/posts/sam-altman-faces-the-security-council.jpg",
+   "imageCaption": "",
+   "categories": [
+    "unga81"
+   ],
+   "author": "admin",
+   "date": "2026-09-24T03:14:08+00:00",
+   "updated": "2026-09-24T14:10:32+00:00",
+   "readTime": 8,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/unga81/sam-altman-faces-the-security-council/"
+  },
+  {
+   "id": "p016",
+   "slug": "when-trump-takes-over-the-press-floor-to-sign-his-greenland-deal",
+   "title": "When Trump takes over the press floor to sign his Greenland deal",
+   "excerpt": "President Trump took over the United Nations Correspondent Association’s room to sign a new agreement with Denmark and Greenland.",
+   "body": "",
+   "image": "assets/img/posts/when-trump-takes-over-the-press-floor-to-sign-his-greenland-deal.jpg",
+   "imageCaption": "",
+   "categories": [
+    "essay"
+   ],
+   "author": "mercedes",
+   "date": "2026-09-23T19:58:27+00:00",
+   "updated": "2026-09-30T16:07:59+00:00",
+   "readTime": 3,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/essay/when-trump-takes-over-the-press-floor-to-sign-his-greenland-deal/"
+  },
+  {
+   "id": "p017",
+   "slug": "sanchez-keeps-his-distance-from-trump",
+   "title": "Sánchez keeps his distance from Trump",
+   "excerpt": "Spain’s prime minister skips Trump’s UNGA reception as tensions with Washington deepen and pressure mounts over Morocco.",
+   "body": "",
+   "image": "assets/img/posts/sanchez-keeps-his-distance-from-trump.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "mercedes",
+   "date": "2026-09-23T03:40:28+00:00",
+   "updated": "2026-09-23T04:14:37+00:00",
+   "readTime": 3,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/sanchez-keeps-his-distance-from-trump/"
+  },
+  {
+   "id": "p018",
+   "slug": "super-intelligence-super-trump-day",
+   "title": "Super Intelligence, Super Trump Day",
+   "excerpt": "From Trump’s AI renaming to Guterres’s “law of power,” a day of competing visions at the UN Today was what UN reporters informally call “Trump Day”—a reference to Donald Trump’s ability to dominate…",
+   "body": "",
+   "image": "assets/img/posts/super-intelligence-super-trump-day.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "dawn-clancy",
+   "date": "2026-09-23T03:36:45+00:00",
+   "updated": "2026-09-23T04:14:01+00:00",
+   "readTime": 13,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/super-intelligence-super-trump-day/"
+  },
+  {
+   "id": "p019",
+   "slug": "the-future-of-africa-belongs-to-africans",
+   "title": "The Future of Africa Belongs to Africans",
+   "excerpt": "Along the sidelines of the 81st session of the UN General Assembly, global leaders and dealmakers gather to celebrate Africa’s present and claim its future.",
+   "body": "",
+   "image": "assets/img/posts/the-future-of-africa-belongs-to-africans.jpg",
+   "imageCaption": "",
+   "categories": [
+    "unga-81",
+    "world-affairs"
+   ],
+   "author": "dawn-clancy",
+   "date": "2026-09-22T17:39:57+00:00",
+   "updated": "2026-09-22T17:39:57+00:00",
+   "readTime": 4,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/the-future-of-africa-belongs-to-africans/"
+  },
+  {
+   "id": "p020",
+   "slug": "meet-the-candidates-vying-to-become-the-next-un-secretary-general",
+   "title": "Meet the Candidates Vying to Become the Next UN Secretary-General",
+   "excerpt": "As the field of candidates grows, their competing visions for reform, development, representation and the UN’s financial future offer an early glimpse of how each would lead an organization in crisis.",
+   "body": "",
+   "image": "assets/img/posts/meet-the-candidates-vying-to-become-the-next-un-secretary-general.jpg",
+   "imageCaption": "",
+   "categories": [
+    "secretary-general-race"
+   ],
+   "author": "admin",
+   "date": "2026-07-28T12:51:09+00:00",
+   "updated": "2026-07-29T14:25:24+00:00",
+   "readTime": null,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/secretary-general-race/meet-the-candidates-vying-to-become-the-next-un-secretary-general/"
+  },
+  {
+   "id": "p021",
+   "slug": "the-drc-puts-natural-resources-at-the-center-of-its-security-council-presidency",
+   "title": "The DRC Puts Natural Resources at the Center of Its Security Council Presidency",
+   "excerpt": "The Democratic Republic of the Congo is using its Security Council presidency to spotlight the link between minerals and conflict, while its own resource wealth continues to expose the limits of…",
+   "body": "",
+   "image": "assets/img/posts/the-drc-puts-natural-resources-at-the-center-of-its-security-council-presidency.jpg",
+   "imageCaption": "",
+   "categories": [
+    "united-nations",
+    "world-affairs"
+   ],
+   "author": "dawn-clancy",
+   "date": "2026-07-02T18:08:06+00:00",
+   "updated": "2026-07-02T18:08:06+00:00",
+   "readTime": 7,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/the-drc-puts-natural-resources-at-the-center-of-its-security-council-presidency/"
+  },
+  {
+   "id": "p022",
+   "slug": "the-world-urban-forum-wants-to-solve-the-worlds-big-city-housing-problem",
+   "title": "The World Urban Forum Wants to Solve the World’s Big City Housing Problem",
+   "excerpt": "BY 2030, 3 billion people will need access to adequate housing—an unmet need that amounts to roughly 96,000 new affordable, accessible homes every day.",
+   "body": "",
+   "image": "assets/img/posts/the-world-urban-forum-wants-to-solve-the-worlds-big-city-housing-problem.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "vusala",
+   "date": "2026-05-15T02:51:35+00:00",
+   "updated": "2026-05-15T02:51:35+00:00",
+   "readTime": 11,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/the-world-urban-forum-wants-to-solve-the-worlds-big-city-housing-problem/"
+  },
+  {
+   "id": "p023",
+   "slug": "from-addis-to-america-a-diaspora-finds-its-punchline",
+   "title": "From Addis to America, a Diaspora Finds Its Punchline",
+   "excerpt": "For Ethiopian and Eritrean comics, family migration routes, refugee histories and diaspora restaurants have become the infrastructure of a new transnational scene.",
+   "body": "",
+   "image": "assets/img/posts/from-addis-to-america-a-diaspora-finds-its-punchline.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "joel-millman",
+   "date": "2026-05-08T16:38:25+00:00",
+   "updated": "2026-05-08T16:45:38+00:00",
+   "readTime": 12,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/from-addis-to-america-a-diaspora-finds-its-punchline/"
+  },
+  {
+   "id": "p024",
+   "slug": "in-the-streets-of-europe-irans-future-is-already-being-contested",
+   "title": "In the Streets of Europe, Iran’s Future Is Already Being Contested",
+   "excerpt": "As diaspora crowds cheered Khamenei’s death, rival opposition camps are still battling over what comes next.",
+   "body": "",
+   "image": "assets/img/posts/in-the-streets-of-europe-irans-future-is-already-being-contested.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "dawn-clancy",
+   "date": "2026-05-08T02:04:59+00:00",
+   "updated": "2026-05-08T02:05:46+00:00",
+   "readTime": 9,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/in-the-streets-of-europe-irans-future-is-already-being-contested/"
+  },
+  {
+   "id": "p025",
+   "slug": "as-the-olympic-truce-is-broken-again-a-new-index-names-and-shames-violators",
+   "title": "As the Olympic Truce Is Broken Again, a New Index Names and Shames Violators",
+   "excerpt": "As war broke out during the Paralympic Games, a new initiative seeks to name and shame violators of the millennia-old Olympic Truce.",
+   "body": "",
+   "image": "assets/img/posts/as-the-olympic-truce-is-broken-again-a-new-index-names-and-shames-violators.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "laura-kirkpatrick",
+   "date": "2026-05-06T20:16:08+00:00",
+   "updated": "2026-05-06T20:18:09+00:00",
+   "readTime": 10,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/as-the-olympic-truce-is-broken-again-a-new-index-names-and-shames-violators/"
+  },
+  {
+   "id": "p026",
+   "slug": "the-board-of-what",
+   "title": "The Board of What?",
+   "excerpt": "Security Council diplomats backed a Gaza reconstruction body.",
+   "body": "",
+   "image": "assets/img/posts/the-board-of-what.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "stephanie",
+   "date": "2026-05-04T16:24:59+00:00",
+   "updated": "2026-05-04T16:24:59+00:00",
+   "readTime": 12,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/the-board-of-what/"
+  },
+  {
+   "id": "p027",
+   "slug": "how-europe-can-help-build-a-new-world-of-order",
+   "title": "How Europe can Help Build A New World of Order",
+   "excerpt": "The current international order is under strain.",
+   "body": "",
+   "image": "assets/img/posts/how-europe-can-help-build-a-new-world-of-order.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "saul-kenny",
+   "date": "2026-05-02T03:24:59+00:00",
+   "updated": "2026-05-02T03:26:33+00:00",
+   "readTime": 7,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/how-europe-can-help-build-a-new-world-of-order/"
+  },
+  {
+   "id": "p028",
+   "slug": "europes-voice-at-the-un-unity-or-strategic-anxiety",
+   "title": "Europe’s Voice at the UN Unity or Strategic Anxiety?",
+   "excerpt": "At United Nations Headquarters, cocktail receptions are rarely where geopolitical tremors become visible.",
+   "body": "",
+   "image": "assets/img/posts/europes-voice-at-the-un-unity-or-strategic-anxiety.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "stefano-vaccara",
+   "date": "2026-05-02T03:16:04+00:00",
+   "updated": "2026-05-02T03:16:04+00:00",
+   "readTime": 11,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/europes-voice-at-the-un-unity-or-strategic-anxiety/"
+  },
+  {
+   "id": "p029",
+   "slug": "a-zone-of-peace-prepares-for-war",
+   "title": "A Zone of Peace Prepares for War",
+   "excerpt": "As the Donroe Doctrine shakes up Latin America, Brazil rethinks its longtime security policy.",
+   "body": "",
+   "image": "assets/img/posts/a-zone-of-peace-prepares-for-war.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "jamil-chade",
+   "date": "2026-04-30T16:40:17+00:00",
+   "updated": "2026-04-30T16:41:16+00:00",
+   "readTime": 15,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/a-zone-of-peace-prepares-for-war/"
+  },
+  {
+   "id": "p030",
+   "slug": "from-darkness-to-dignity-why-light-is-the-first-step-out-of-poverty",
+   "title": "From Darkness to Dignity Why Light Is the First Step Out of Poverty",
+   "excerpt": "Tonight, many of us will walk around our homes and have the luxury of flipping on a light switch, reading a book to our children before bed, or having a porch light on for security without thinking…",
+   "body": "",
+   "image": "assets/img/posts/from-darkness-to-dignity-why-light-is-the-first-step-out-of-poverty.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "nancy-economou",
+   "date": "2026-04-20T19:23:43+00:00",
+   "updated": "2026-04-20T19:26:01+00:00",
+   "readTime": 8,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/from-darkness-to-dignity-why-light-is-the-first-step-out-of-poverty/"
+  },
+  {
+   "id": "p031",
+   "slug": "indigenous-diplomacy-power-without-a-state",
+   "title": "Indigenous Diplomacy Power Without a State",
+   "excerpt": "Ancestral governance meets state-led negotiation at the Permanent Forum on Indigenous Issues   As the United Nations prepares for the 25th session of the UN Permanent Forum on.",
+   "body": "",
+   "image": "assets/img/posts/indigenous-diplomacy-power-without-a-state.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "bianca-otero",
+   "date": "2026-04-20T18:22:37+00:00",
+   "updated": "2026-04-20T23:23:04+00:00",
+   "readTime": 10,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/indigenous-diplomacy-power-without-a-state/"
+  },
+  {
+   "id": "p032",
+   "slug": "a-planet-out-of-balance",
+   "title": "A Planet Out of Balance",
+   "excerpt": "The latest report from the World Meteorological Organization paints a clear picture: the Earth’s climate system is increasingly out of equilibrium.",
+   "body": "",
+   "image": "assets/img/posts/a-planet-out-of-balance.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "admin",
+   "date": "2026-03-24T03:02:04+00:00",
+   "updated": "2026-03-24T03:02:04+00:00",
+   "readTime": 3,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/a-planet-out-of-balance/"
+  },
+  {
+   "id": "p033",
+   "slug": "sierra-leones-treasure-lies-above-ground-way-above",
+   "title": "Sierra leone’s treasure lies above ground — Way Above",
+   "excerpt": "",
+   "body": "",
+   "image": "assets/img/posts/sierra-leones-treasure-lies-above-ground-way-above.jpg",
+   "imageCaption": "",
+   "categories": [
+    "innovation"
+   ],
+   "author": "joel-millman",
+   "date": "2025-11-06T20:44:55+00:00",
+   "updated": "2025-11-06T20:44:55+00:00",
+   "readTime": null,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/innovation/sierra-leones-treasure-lies-above-ground-way-above/"
+  },
+  {
+   "id": "p034",
+   "slug": "a-faint-hint-of-jasmine-memoirs-of-a-taiwanese-tea-table",
+   "title": "A Faint Hint of Jasmine: Memoirs of a Taiwanese Tea Table",
+   "excerpt": "Green teas are monks subscribed to a plain, austere life.",
+   "body": "",
+   "image": "assets/img/posts/a-faint-hint-of-jasmine-memoirs-of-a-taiwanese-tea-table.jpg",
+   "imageCaption": "",
+   "categories": [
+    "culture"
+   ],
+   "author": "charlene-molan-jin",
+   "date": "2025-10-22T06:42:49+00:00",
+   "updated": "2025-10-25T19:21:07+00:00",
+   "readTime": 10,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/culture/a-faint-hint-of-jasmine-memoirs-of-a-taiwanese-tea-table/"
+  },
+  {
+   "id": "p035",
+   "slug": "who-watches-the-watchers-the-private-companies-behind-global-surveillance",
+   "title": "Who Watches the Watchers? The Private Companies Behind Global Surveillance",
+   "excerpt": "Data Privacy and Human Rights: Balancing Security and Civil Liberties in the Age of Terrorism   The Day the Phone Rang In a quiet neighborhood in Nairobi, Amina’s phone rang one morning with a…",
+   "body": "",
+   "image": "assets/img/posts/who-watches-the-watchers-the-private-companies-behind-global-surveillance.jpg",
+   "imageCaption": "",
+   "categories": [
+    "world-affairs"
+   ],
+   "author": "jessica-dapelo",
+   "date": "2025-10-19T17:42:19+00:00",
+   "updated": "2025-10-19T17:43:03+00:00",
+   "readTime": 5,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/world-affairs/who-watches-the-watchers-the-private-companies-behind-global-surveillance/"
+  },
+  {
+   "id": "p036",
+   "slug": "heritage-for-humanity-unesco-adds-26-new-sites-to-world-heritage-list",
+   "title": "Heritage for Humanity UNESCO adds 26 new sites To World Heritage List",
+   "excerpt": "",
+   "body": "",
+   "image": "assets/img/posts/heritage-for-humanity-unesco-adds-26-new-sites-to-world-heritage-list.jpg",
+   "imageCaption": "",
+   "categories": [
+    "unescos-world-heritage-list"
+   ],
+   "author": "admin",
+   "date": "2025-10-03T01:08:50+00:00",
+   "updated": "2025-10-03T01:17:47+00:00",
+   "readTime": null,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/unescos-world-heritage-list/heritage-for-humanity-unesco-adds-26-new-sites-to-world-heritage-list/"
+  },
+  {
+   "id": "p037",
+   "slug": "the-un-turns-80-gaza-wont-let-it-celebrate",
+   "title": "The UN Turns 80. Gaza Won’t Let It Celebrate.",
+   "excerpt": "",
+   "body": "",
+   "image": "assets/img/posts/the-un-turns-80-gaza-wont-let-it-celebrate.jpg",
+   "imageCaption": "",
+   "categories": [
+    "united-nations"
+   ],
+   "author": "razi",
+   "date": "2025-09-23T00:21:01+00:00",
+   "updated": "2025-09-23T01:40:14+00:00",
+   "readTime": null,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/united-nations/the-un-turns-80-gaza-wont-let-it-celebrate/"
+  },
+  {
+   "id": "p038",
+   "slug": "the-rainforest-becomes-the-crossroads-for-multilateralism",
+   "title": "The rainforest becomes the crossroads for multilateralism",
+   "excerpt": "",
+   "body": "",
+   "image": "assets/img/posts/the-rainforest-becomes-the-crossroads-for-multilateralism.jpg",
+   "imageCaption": "",
+   "categories": [
+    "amazon-rainforest"
+   ],
+   "author": "jamil-chade",
+   "date": "2025-07-06T01:14:33+00:00",
+   "updated": "2025-07-06T01:14:33+00:00",
+   "readTime": null,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/amazon-rainforest/the-rainforest-becomes-the-crossroads-for-multilateralism/"
+  },
+  {
+   "id": "p039",
+   "slug": "brain-drain-or-brain-chain",
+   "title": "Brain Drain? or Brain Chain?",
+   "excerpt": "A little over two years ago, African Development Bank President Dr. Akinwumi A.",
+   "body": "",
+   "image": "assets/img/posts/brain-drain-or-brain-chain.jpg",
+   "imageCaption": "",
+   "categories": [
+    "culture"
+   ],
+   "author": "joel-millman",
+   "date": "2025-04-26T04:54:32+00:00",
+   "updated": "2025-04-26T04:54:32+00:00",
+   "readTime": 8,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/culture/brain-drain-or-brain-chain/"
+  },
+  {
+   "id": "p040",
+   "slug": "runway-activism-protests-to-progress",
+   "title": "Runway Activism: Protests to Progress",
+   "excerpt": "Runway has evolved into a space where fashion meets activism It was a hot summer day in 2019, I was standing outside the Prada headquarters in New York City, moments before the brand’s Cruise 2020…",
+   "body": "",
+   "image": "assets/img/posts/runway-activism-protests-to-progress.jpg",
+   "imageCaption": "",
+   "categories": [
+    "culture"
+   ],
+   "author": "elif",
+   "date": "2025-04-25T00:01:22+00:00",
+   "updated": "2025-04-25T00:01:22+00:00",
+   "readTime": 5,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/culture/runway-activism-protests-to-progress/"
+  },
+  {
+   "id": "p041",
+   "slug": "the-evolving-language-of-music-from-ancient-rhythms-to-the-ai-revolution",
+   "title": "The evolving language of music from ancient rhythms to THE AI REVOLUTION",
+   "excerpt": "Music and language likely share the same ancient roots, emerging from early humans’ need to connect, communicate, and thrive as social beings.",
+   "body": "",
+   "image": "assets/img/posts/the-evolving-language-of-music-from-ancient-rhythms-to-the-ai-revolution.jpg",
+   "imageCaption": "",
+   "categories": [
+    "culture"
+   ],
+   "author": "claire_envoy",
+   "date": "2025-04-24T22:56:42+00:00",
+   "updated": "2025-04-24T22:56:52+00:00",
+   "readTime": 9,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/culture/the-evolving-language-of-music-from-ancient-rhythms-to-the-ai-revolution/"
+  },
+  {
+   "id": "p042",
+   "slug": "no-borders-just-stories-how-theater-creates-a-refuge-for-the-displaced",
+   "title": "No Borders, Just Stories: How Theater Creates a Refuge for the Displaced",
+   "excerpt": "Of all the arts, theater has always been a powerful force in bringing people together.",
+   "body": "",
+   "image": "assets/img/posts/no-borders-just-stories-how-theater-creates-a-refuge-for-the-displaced.jpg",
+   "imageCaption": "",
+   "categories": [
+    "culture"
+   ],
+   "author": "olga",
+   "date": "2025-04-20T14:09:05+00:00",
+   "updated": "2025-04-20T14:10:08+00:00",
+   "readTime": 13,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/culture/no-borders-just-stories-how-theater-creates-a-refuge-for-the-displaced/"
+  },
+  {
+   "id": "p043",
+   "slug": "skunks-at-the-garden-party",
+   "title": "Skunks at the Garden Party",
+   "excerpt": "Advocating for human rights in the halls and corridors of United Nations headquarters is not easy, but it’s what some of us do every day.",
+   "body": "",
+   "image": "assets/img/posts/skunks-at-the-garden-party.jpg",
+   "imageCaption": "",
+   "categories": [
+    "culture",
+    "magazine"
+   ],
+   "author": "louis_charbonneau",
+   "date": "2025-04-10T18:14:16+00:00",
+   "updated": "2025-04-10T18:36:11+00:00",
+   "readTime": 11,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/culture/skunks-at-the-garden-party/"
+  },
+  {
+   "id": "p044",
+   "slug": "unesco-names-18-new-geoparks",
+   "title": "UNESCO Names 18 New Geoparks",
+   "excerpt": "",
+   "body": "",
+   "image": "assets/img/posts/unesco-names-18-new-geoparks.jpg",
+   "imageCaption": "",
+   "categories": [
+    "environment"
+   ],
+   "author": "admin",
+   "date": "2024-12-11T05:56:09+00:00",
+   "updated": "2024-12-23T23:09:51+00:00",
+   "readTime": null,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/environment/unesco-names-18-new-geoparks/"
+  },
+  {
+   "id": "p045",
+   "slug": "passing-the-baton-our-athletes-our-ambassadors",
+   "title": "Passing The Baton: “Our Athletes, Our Ambassadors”",
+   "excerpt": "How Diaspora West Indians Use Track and Field to Lift Countrymen (and Women!) from Poverty “As the world watches this summer’s Paris Olympiad, even casual sports fans can’t help being thrilled…",
+   "body": "",
+   "image": "assets/img/posts/passing-the-baton-our-athletes-our-ambassadors.jpg",
+   "imageCaption": "",
+   "categories": [
+    "culture",
+    "sports"
+   ],
+   "author": "joel-millman",
+   "date": "2024-12-09T19:20:24+00:00",
+   "updated": "2024-12-09T20:27:00+00:00",
+   "readTime": 11,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/culture/passing-the-baton-our-athletes-our-ambassadors/"
+  },
+  {
+   "id": "p046",
+   "slug": "road-crashes-the-leading-cause-ofdeath-for-youth",
+   "title": "Road Crashes, the Leading Cause of Death for Youth",
+   "excerpt": "“Globally, road traffic crashes cause nearly 1.3 million preventable deaths and an estimated 50 million injuries each year.”",
+   "body": "",
+   "image": "assets/img/posts/road-crashes-the-leading-cause-ofdeath-for-youth.jpg",
+   "imageCaption": "",
+   "categories": [
+    "culture"
+   ],
+   "author": "pamela",
+   "date": "2024-09-23T16:01:23+00:00",
+   "updated": "2024-12-11T06:11:05+00:00",
+   "readTime": 8,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/culture/road-crashes-the-leading-cause-ofdeath-for-youth/"
+  },
+  {
+   "id": "p047",
+   "slug": "international-students",
+   "title": "International Students",
+   "excerpt": "“If the United States wants to continue to lead in global research and innovation, it needs to enhance its efforts to attract and retain global talent – starting at the university level.”",
+   "body": "",
+   "image": "assets/img/posts/international-students.jpg",
+   "imageCaption": "",
+   "categories": [
+    "culture"
+   ],
+   "author": "admin",
+   "date": "2024-09-18T15:19:27+00:00",
+   "updated": "2024-09-18T15:19:27+00:00",
+   "readTime": 12,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/culture/international-students/"
+  },
+  {
+   "id": "p048",
+   "slug": "the-journey-home",
+   "title": "The Journey Home",
+   "excerpt": "The Quest for looted artifacts: Navigating Heritage and History in the Pursuit of Cultural Repatriation.",
+   "body": "",
+   "image": "assets/img/posts/the-journey-home.jpg",
+   "imageCaption": "",
+   "categories": [
+    "culture"
+   ],
+   "author": "selin",
+   "date": "2024-09-18T15:03:26+00:00",
+   "updated": "2024-12-11T06:04:35+00:00",
+   "readTime": 13,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/culture/the-journey-home/"
+  },
+  {
+   "id": "p049",
+   "slug": "the-soft-diplomacy-of-music-by-constantine-orbelian",
+   "title": "The Soft Diplomacy of Music by Constantine Orbelian",
+   "excerpt": "Internationally acclaimed pianist and 4 time Grammy nominated Conductor",
+   "body": "",
+   "image": "assets/img/posts/the-soft-diplomacy-of-music-by-constantine-orbelian.jpg",
+   "imageCaption": "",
+   "categories": [
+    "culture",
+    "featured"
+   ],
+   "author": "admin",
+   "date": "2024-09-18T14:07:59+00:00",
+   "updated": "2024-09-18T14:07:59+00:00",
+   "readTime": 11,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/culture/the-soft-diplomacy-of-music-by-constantine-orbelian/"
+  },
+  {
+   "id": "p050",
+   "slug": "leveraging-football-for-sustainable-development-a-call-to-action",
+   "title": "Leveraging Football for Sustainable Development: A Call to Action",
+   "excerpt": "Football: A Powerful Tool for Sustainable Development",
+   "body": "",
+   "image": "assets/img/posts/leveraging-football-for-sustainable-development-a-call-to-action.jpg",
+   "imageCaption": "",
+   "categories": [
+    "culture"
+   ],
+   "author": "admin",
+   "date": "2024-08-18T15:32:42+00:00",
+   "updated": "2024-08-18T15:32:42+00:00",
+   "readTime": 6,
+   "status": "published",
+   "sourceUrl": "https://envoymag.com/culture/leveraging-football-for-sustainable-development-a-call-to-action/"
+  }
+ ],
+ "pages": [
+  {
+   "id": "purpose",
+   "slug": "purpose",
+   "title": "Purpose",
+   "sidebar": true,
+   "body": "<p><strong>From the Editor-in-Chief</strong></p>\n<p>Envoy covers the United Nations as a mirror of the wider world: the place where global tensions surface, power is negotiated, and the effects of conflict, climate shocks and economic instability meet. Its reporting draws on a global network of correspondents who take readers inside the rooms where decisions are shaped, explaining not only what happens but why it matters.</p>\n<p>The magazine is growing its online and social presence, holding events, and building ties with students and universities, especially in New York City. Readers, diplomats, UN officials and journalists are invited to share story ideas and tell the editors what Envoy should investigate next.</p>\n<p>Stéphanie Fillion<br>Editor-in-Chief</p>\n<p><strong>From the Founder</strong></p>\n<p>Envoy was launched to explore the landscape of global affairs and the forces shaping the world. It now reaches readers in bookstores across the United States and Canada, and serves as a platform for dialogue and engagement on the work of the United Nations, climate action, peace and security, and the Sustainable Development Goals.</p>\n<p>Razi Canikligil<br>President &amp; Founder, Envoy Magazine</p>"
+  },
+  {
+   "id": "contacts",
+   "slug": "contacts",
+   "title": "Contacts",
+   "body": "<h3>PUBLISHED BY</h3>\n<p>UNEMAG a Non-Profit 501 (c) (3) Organization</p>\n<h3>EDITORIAL OFFICE</h3>\n<p>United Nations Headquarters<br> 405 East 42nd Street<br> S. 0344<br> New York, NY 10017</p>\n<p><strong>Advertising and Editorial</strong><br> info@envoymag.com</p>\n<p>+1917-402-1075</p>\n<h3>MASTHEAD</h3>\n<p><strong>PRESIDENT & FOUNDER</strong><br> Razi Canikligil</p>\n<p><strong>EDITOR-IN-CHIEF</strong><br> Stéphanie Fillion</p>\n<p><strong>CONTRIBUTORS:<br> </strong>Jamil Chade<br> Dawn Clancy<br> Antonia Diaz Hernandez<br> Nimet Kirac<br> Laura Kirkpatrick<br> Valdez Onanina<br> Bianca Otero<br> Senada Sokkolu<br> Stefano Vaccara<br> Pau Torres Pages</p>\n<p><strong>SENIOR CORRESPONDENT:<br> </strong>Mercedes Gallego</p>\n<p><strong>OPINION CONTRIBUTORS:<br> </strong>Jérome Crettol<br> Richard Gowan<br> Patrick Rosenow<br> Lisa Marie Vickers<br> Favour Amoye</p>\n<p><strong>CREATIVE DIRECTOR</strong><br> Hasan Bayramoglu</p>\n<p><strong>PHOTO EDITOR</strong><br> Emma Rivera</p>\n<p><strong>COPY EDITOR</strong><br> Angela Moore</p>\n<p><strong>CONTROLLER</strong><br> Ben C. Yakut</p>\n<p><strong>COVER ART BY</strong><br> Hasan Bayramoglu</p>",
+   "sidebar": false
+  },
+  {
+   "id": "envoy-tv",
+   "slug": "envoy-tv",
+   "title": "Envoy TV",
+   "body": "<p>Video interviews, conversations and coverage from the Envoy newsroom.</p>\n<p>Add episodes from the admin panel: open Pages, choose Envoy TV, and use the video button in the editor toolbar to embed a YouTube or Vimeo link.</p>",
+   "sidebar": true
+  },
+  {
+   "id": "subscribe",
+   "slug": "subscribe",
+   "title": "Subscribe",
+   "body": "<p>Get Envoy in print and online. Each issue brings reporting on the United Nations, diplomacy and global affairs from our network of correspondents.</p>\n<p>Read the current digital edition through the Magazine link in the menu, or contact the editorial office from the Contacts page for subscription enquiries.</p>",
+   "sidebar": true
+  }
+ ]
+}

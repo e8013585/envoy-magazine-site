@@ -1,0 +1,17 @@
+{
+  "username": "admin",
+  "kdf": {
+    "name": "PBKDF2",
+    "hash": "SHA-256",
+    "iterations": 310000,
+    "salt": "jPsjRATweCsumR2ueSpzvg=="
+  },
+  "passwordHash": "YYQbGFaWhJAYw10kvKAWwTjfF+WrKTo+MC73Bwh/Y88=",
+  "github": {
+    "owner": "",
+    "repo": "",
+    "branch": "main",
+    "root": "docs"
+  },
+  "token": null
+}
