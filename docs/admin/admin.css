@@ -5,10 +5,8 @@ body.admin { background: var(--bg); font-size: 14px; }
 
 /* ------------------------------------------------------------------ login */
 .login { min-height: 100vh; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
-.login__art { position: relative; overflow: hidden; background: var(--surface-2); border-right: 1px solid var(--border); display: flex; flex-direction: column; justify-content: space-between; padding: 48px; }
-.login__art::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(var(--border) 1px, transparent 1px), linear-gradient(90deg, var(--border) 1px, transparent 1px); background-size: 56px 56px; mask-image: radial-gradient(ellipse at 30% 40%, #000, transparent 75%); }
-.login__art > * { position: relative; }
-.login__art img { height: 40px; width: auto; filter: var(--logo-filter); }
+.login__art { position: relative; overflow: hidden; background: var(--surface-2); border-right: 1px solid var(--border); display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; padding: 48px; }
+.login__art img { height: 40px; width: auto; max-width: 100%; object-fit: contain; filter: var(--logo-filter); }
 .login__quote { font-family: var(--serif); font-size: clamp(28px, 3vw, 40px); line-height: 1.15; letter-spacing: -0.03em; color: var(--heading); max-width: 14ch; margin: 0; }
 .login__foot { font-family: var(--mono); font-size: 11.5px; color: var(--muted); letter-spacing: .04em; }
 .login__form { display: grid; place-items: center; padding: 48px 24px; }
